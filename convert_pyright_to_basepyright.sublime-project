@@ -1,0 +1,35 @@
+{
+    "folders":
+    [
+        {
+            "path": ".",
+            "file_include_patterns":
+            [
+                "*"
+            ],
+            "folder_exclude_patterns":
+            [
+            ]
+        }
+    ],
+    "settings":
+    {
+        "LSP":
+        {
+            "LSP-basedpyright":
+            {
+                "settings":
+                {
+                    "venvStrategies":
+                    [
+                        "local_dot_venv"
+                    ],
+                    "basedpyright.analysis.extraPaths":
+                    [],
+                    "basedpyright.analysis.typeCheckingMode": "standard",
+                    "basedpyright.analysis.reportOptionalSubscript": "error"
+                }
+            }
+        }
+    }
+}
