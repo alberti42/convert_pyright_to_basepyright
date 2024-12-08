@@ -10,7 +10,7 @@ This utility converts Sublime Text `.sublime-project` files configured for `LSP-
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.8+
 - `json5` library (`pip install json5`)
 
 ## Installation
