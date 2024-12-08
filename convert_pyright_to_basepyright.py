@@ -5,7 +5,7 @@ import json
 import sys
 from pathlib import Path
 
-def convert_pyright_to_basedpyright(file_path):
+def pyright_to_basedpyright(file_path):
     # Read the .sublime-project file
     try:
         with open(file_path, 'r') as f:
@@ -50,7 +50,7 @@ def convert_pyright_to_basedpyright(file_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python convert_project.py <path_to_sublime_project>")
+        print("Usage: python convert_pyright_to_basedpyright.py <path_to_sublime_project>")
         sys.exit(1)
     
     project_file = sys.argv[1]
@@ -58,4 +58,4 @@ if __name__ == "__main__":
         print(f"File {project_file} does not exist.")
         sys.exit(1)
     
-    convert_pyright_to_basedpyright(project_file)
+    pyright_to_basedpyright(project_file)
