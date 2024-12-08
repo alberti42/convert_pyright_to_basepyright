@@ -1,6 +1,6 @@
 # Sublime Project Pyright to Basedpyright Converter
 
-This utility converts Sublime Text `.sublime-project` files configured for `LSP-pyright` to use `LSP-basedpyright`. `LSP-basedpyright` extends the functionality of `LSP-pyright` by providing enhanced support for Python projects in Sublime Text.
+This utility converts Sublime Text `.sublime-project` files configured for `LSP-pyright` to use `LSP-basedpyright`. [`basedpyright`](https://docs.basedpyright.com/dev/) extends the functionality of [`pyright`](https://github.com/microsoft/pyright) by providing enhanced support for Python projects in Sublime Text.
 
 ## Features
 
